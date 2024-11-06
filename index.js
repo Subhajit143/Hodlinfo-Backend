@@ -8,7 +8,7 @@ import cors from "cors"
 const app = express();
 
 const corsOrigin={
-  origin:"http://localhost:5174",
+  origin:"https://hodlinfo-clone-subha.netlify.app/",
   methods:"GET,POST,PUT,DELETE,OPTIONS,PATCH",
   credentials:true,
 }
